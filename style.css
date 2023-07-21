@@ -45,3 +45,12 @@ nav{
     color: black;
     font-size: 18px;
 }
+
+
+
+
+@media (max-width: 767px) {
+    nav{
+        display: none;
+    }
+  }
