@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Custom Navbar</title>
-    <link rel="stylesheet" href="style.css">
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
- 
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 ">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./images/persol.png" alt="Logo" height="30">
-                Persol
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Frames</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Lenses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Contact us</a>
-                    </li>
-                </ul>
-            </div>
-            
-        </div>
-    </nav>
-    <div class="intro backgroundImage">
-        <div class="trans">
-            <div class="introTextDiv">
-                <h1>Persol Eyewear and Contact lenses</h1>
-                <p>Welcome to Persol, your destination for stylish eyewear and comfortable contact lenses</p>
-                <button class="exBtn">Explore now</button>
-            </div>
-        </div>
-    </div>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+ <div class="header">
    
+      <div class="intro backgroundImage">
+        
+        <div class="trans">
+            <nav class="navbar navbar-expand-lg py-4">
+                <div class="container">
+                  <a class="navbar-brand fs-5 text-light" href="#">
+                    <img src="./images/persol.png" alt="Logo" height="50" />
+                    Persol
+                  </a>
+                  <button
+                    class="navbar-toggler bg-light"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav  ">
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 " href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 " href="#">Frames</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 " href="#">Lenses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 " href="#">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+          <div class="introTextDiv">
+            <h1>Persol Eyewear and Contact lenses</h1>
+            <p>
+              Welcome to Persol, your destination for stylish eyewear and
+              comfortable contact lenses
+            </p>
+            <button class="exBtn">Explore now</button>
+          </div>
+        </div>
+      </div>
+ </div>
 
     <!-- Bootstrap JS (optional, required if you want to use the collapse functionality) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
