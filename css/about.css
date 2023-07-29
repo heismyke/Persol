@@ -1,0 +1,120 @@
+   /* Custom CSS */
+   .navbar-brand {
+    margin-right: 50px; 
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.navbar-nav {
+    flex-grow: 1; 
+    justify-content: end; 
+    background-color: white;
+}
+.nav-item a{
+    color: black;
+    
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; 
+}
+.navbar-toggler-icon{
+   color: red;
+}
+.ml-auto {
+    margin-right: 0 !important; 
+}
+.navbar-toggler{
+    color: white !important;
+}
+.intro{
+position: relative;
+width: 100%;
+height: 100vh;
+}
+.backgroundImage{
+position: relative;
+background-image: url(./images/doc.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.trans{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: rgba(0, 0, 0, 0.6);
+   
+}
+.introTextDiv{
+    width: 100%;
+    height: 250px;
+    /* background-color: ; */
+    flex-direction: column;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 200px;
+}
+.trans{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+.introTextDiv h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 700 !important;
+   
+}
+.introTextDiv p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+.exBtn{
+    width: 60%;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: brown;
+    color: white;
+}
+.navbar{
+    background-color: transparent;
+}
+.footer {
+    background-color: brown;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: white;
+}
+h1 {
+    margin-top: 20px;
+  
+  }
+  
+  .frames{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center
+  }
+  
+  .frames img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  

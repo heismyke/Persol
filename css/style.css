@@ -35,7 +35,7 @@ height: 100vh;
 }
 .backgroundImage{
 position: relative;
-background-image: url(./images/doc.jpg);
+background-image: url(../images/doc.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
