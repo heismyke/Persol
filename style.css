@@ -13,10 +13,14 @@
 }
 .nav-item a{
     color: black;
+   
 }
 
 .nav-item a:hover{
-    color: red;
+    color: red !important;
+}
+.nav-item a:visited{
+    color: white !important;
 }
 .navbar-nav .nav-item {
     margin: 0 10px; 
@@ -69,6 +73,7 @@ background-size: cover;
     font-size: 40px;
     color: white;
     margin-bottom: 20px;
+    font-weight: 700 !important;
    
 }
 .introTextDiv p{
@@ -169,4 +174,5 @@ background-size: cover;
     .nav-item a{
         color: white;
     }
+    
   }
